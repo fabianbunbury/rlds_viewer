@@ -1,0 +1,47 @@
+/* assets/styles.css */
+
+/* Hide scrollbar for horizontal-scroll class */
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100vh;
+    padding: 20px;
+    /* background-color: #84909c;
+    border-right: 1px solid #84909c; */
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    padding: 20px;
+    overflow: hidden;
+    /* background-color: #84909c; */
+
+}
+
+/* assets/style.css */
+
+/* Change cursor when active (dragging) */
+#columns-container.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
+
+/* Default cursor */
+#columns-container {
+    cursor: grab;
+    cursor: -webkit-grab;
+}
+
+
+

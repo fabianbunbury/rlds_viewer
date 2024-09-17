@@ -1,0 +1,8 @@
+dash
+dash-bootstrap-components
+tensorflow
+tensorflow-datasets
+Pillow
+rlds
+numpy
+pdash-draggable
