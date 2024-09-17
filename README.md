@@ -8,13 +8,10 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 
 - [About This App](#about-this-app)
 - [Features](#features)
-- [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+- [Setup](#setup)
 - [Running the App](#running-the-app)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## About This App
 
@@ -22,26 +19,25 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 
 ## Features
 
-- **Searchable Database:** Easily search and manage the expanding collection of robotics datasets.
 - **User-Friendly Interface:** Built with Dash for a seamless user experience.
-
-## Installation
-
-### Prerequisites
 
 - **Python 3.6 or higher**: Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 
 ### Setup
 
 1. **Clone the Repository**
-
      ```bash
      git clone git@github.com:fabianbunbury/rlds_viewer.git
+     ```
+3. **Create Virtual Environment ... Optional**
+    ```bash
      cd rlds_viewer
      python3 -m venv myvenv
      source myvenv/bin/activate  # On Windows: myvenv\Scripts\activate
+     ```
+3. **install Requirements**
+    ```bash
      pip install -r requirements.txt
-
      python app.py
      ```
 
