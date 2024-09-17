@@ -1,5 +1,7 @@
 # Visualize RLDS Datasets
 
+# RLDS Viewer
+
 An application designed to easily and quickly visualize RLDS datasets, making the growing database of open-source robotics data searchable and manageable.
 
 ## Table of Contents
@@ -7,14 +9,15 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 - [About This App](#about-this-app)
 - [Features](#features)
 - [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
 - [Running the App](#running-the-app)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## About This App
+
 An application designed to easily and quickly visualize RLDS datasets, making the growing database of open-source robotics data searchable and manageable.
 
 ## Features
@@ -32,6 +35,13 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/yourusername/visualize-rlds-datasets.git
-   cd visualize-rlds-datasets
+     ```bash
+     git clone git@github.com:fabianbunbury/rlds_viewer.git
+     cd rlds_viewer
+     python3 -m venv myvenv
+     source myvenv/bin/activate  # On Windows: myvenv\Scripts\activate
+     pip install -r requirements.txt
+
+     python app.py
+     ```
+
