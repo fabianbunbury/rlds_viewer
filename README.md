@@ -1,54 +1,37 @@
-# Dash Exploration of COVID-19 chest X-ray CT images
+# Visualize RLDS Datasets
 
-## About this app
+An application designed to easily and quickly visualize RLDS datasets, making the growing database of open-source robotics data searchable and manageable.
 
-This app shows how to explore 3-D chest tomography data using Dash. 
+## Table of Contents
 
-The data used in this app come from the open dataset of
-https://github.com/ieee8023/covid-chestxray-dataset
+- [About This App](#about-this-app)
+- [Features](#features)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [Running the App](#running-the-app)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-## How to run this app
+## About This App
+An application designed to easily and quickly visualize RLDS datasets, making the growing database of open-source robotics data searchable and manageable.
 
-(The following instructions apply to Windows command line.)
+## Features
 
-To run this app first clone repository and then open a terminal to the app folder.
+- **Searchable Database:** Easily search and manage the expanding collection of robotics datasets.
+- **User-Friendly Interface:** Built with Dash for a seamless user experience.
 
-```
-git clone https://github.com/plotly/dash-sample-apps.git
-cd dash-sample-apps/apps/dash-covid-xray
-```
+## Installation
 
-Create and activate a new virtual environment (recommended) by running
-the following:
+### Prerequisites
 
-On Windows
+- **Python 3.6 or higher**: Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
 
-```
-virtualenv venv 
-\venv\scripts\activate
-```
+### Setup
 
-Or if using linux
+1. **Clone the Repository**
 
-```bash
-python3 -m venv myvenv
-source myvenv/bin/activate
-```
-
-Install the requirements:
-
-```
-pip install -r requirements.txt
-```
-Run the app:
-
-```
-python app.py
-```
-You can run the app on your browser at http://127.0.0.1:8050
-
-
-## Resources
-
-To learn more about Dash, please visit [documentation](https://plot.ly/dash).
-
+   ```bash
+   git clone https://github.com/yourusername/visualize-rlds-datasets.git
+   cd visualize-rlds-datasets
