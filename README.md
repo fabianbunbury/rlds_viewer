@@ -30,4 +30,4 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 
      To see a demonstration of the RLDS Viewer in action, check out the video below:
 
-     ![RLDS Viewer Demo](../../assets/demo.webm)
+     ![RLDS Viewer Demo](/assets/demo.webm)
