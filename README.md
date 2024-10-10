@@ -5,12 +5,6 @@
 An application designed to easily and quickly visualize RLDS datasets, making the growing database of open-source robotics data searchable and manageable.
 
 
-## Features
-
-- **User-Friendly Interface:** Built with Dash for a seamless user experience.
-
-- **Python 3.6 or higher:** Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
-
 ### Setup
 
 1. **Clone the Repository**
