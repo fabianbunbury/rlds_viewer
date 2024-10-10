@@ -5,4 +5,3 @@ tensorflow-datasets
 Pillow
 rlds
 numpy
-pdash-draggable
