@@ -26,3 +26,8 @@ An application designed to easily and quickly visualize RLDS datasets, making th
 4. **Use The GUI**
      Go to http://127.0.0.1:8050/. You can select various datasets and episodes. The data is downloaded from Google, so it can take some time to swap between datasets. You can use the mouse to drag left and right to see later states.
 
+     ### Demo
+
+     To see a demonstration of the RLDS Viewer in action, check out the video below:
+
+     ![RLDS Viewer Demo](../../assets/demo.webm)
